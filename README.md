@@ -2,6 +2,14 @@
 
 An automated way of pre processing Sentinel-1 SAR data. The script uses the Graph Processing Tool (gpt) in SNAP (S1TBX - ESA Sentinel-1 Toolbox, http://step.esa.int) and performs all the necessary pre processing steps for the Sentinel-1 data
 
+The script performs teh following pre processing steps
+- SAR scene subset
+- Thermal noise removal
+- Speckle noise supression
+- Calibration (sigman nought)
+- Terrain flattening
+- Terain correction and georeference to WGS84 coordinate system
+
 
 # Run the script
 
